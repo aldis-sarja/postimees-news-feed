@@ -53,7 +53,7 @@ export default {
                 if (item.articleLead.html) {
                  description = item.articleLead.html;
                 } else if (item.articleLead[0].html) {
-                    description = item.articleLead[0].html;
+                    description = item.articleLead[item.articleLead.length-1].html;
                 }
                 article.description = description.replace(/<\/?p>/g, "");
 
