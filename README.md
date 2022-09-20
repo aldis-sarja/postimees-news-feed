@@ -17,4 +17,4 @@ Run
 npm run start
 ```
 
-and open this address `http://localhost:3000/` in your browser.
+and open address `http://localhost:3000/` in your browser.
